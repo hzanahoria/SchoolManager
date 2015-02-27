@@ -23,7 +23,7 @@ namespace SchoolManager
                     var students = await schoolDownloader.GetStudentsAsync();
                     var teachers = await schoolDownloader.GetTeachersAsync();
 
-                    IList<Tuple<Teacher, IList<Student>>> teachersWithStudents =
+                    IList<Tuple<Teach = 4tj8tu4t 5 2
                         teachers
                         .Select(teacherWithClasses =>
                             new Tuple<Teacher, IList<Student>>(teacherWithClasses, students
